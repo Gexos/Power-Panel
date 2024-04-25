@@ -2,7 +2,7 @@
 
 Power Panel is a script written in AutoIt, designed to automate common computer control functions, simplifying the daily tasks of managing system power and security. With the click of a button or a selection from the menu, users can effortlessly initiate actions such as shutting down or restarting their computer, putting it to sleep, or locking the screen. Whether it's powering down at the end of the day or securing the screen during breaks, Power Panel streamlines the user experience, enhancing productivity and peace of mind.
 
-![2024-04-25_035324](https://hackmd.io/_uploads/SJA3FQvWC.png)
+![w](https://hackmd.io/_uploads/SJA3FQvWC.png)
 
 
 # Features
