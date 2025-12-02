@@ -1,6 +1,6 @@
 # Power Panel
 
-Power Panel is a small Windows utility that gives you quick, one-click access to common power actions like **Shutdown**, **Restart**, **Sleep**, **Hibernate**, **Lock**, and **Sign out** – without digging through the Start menu.
+Power Panel is a small Windows utility that gives you quick, one-click access to common power actions like **Shutdown**, **Restart**, **Sleep**, **Hibernate**, **Lock**, and **Sign out** – plus optional **timed shutdown and restart** with a simple delay selector.
 
 It’s designed to be simple, fast, and portable: drop the EXE on your desktop, taskbar, or USB stick and you’re ready to go.
 
@@ -8,31 +8,47 @@ It’s designed to be simple, fast, and portable: drop the EXE on your desktop, 
 
 ## Features
 
-- One-click power actions:
-  - Shutdown
-  - Restart
+- **One-click power actions:**
+  - Shutdown now
+  - Restart now
   - Sleep
   - Hibernate
-  - Lock
+  - Lock workstation
   - Sign out / Log off
-- Fast and lightweight – no installer, no bloat
-- Portable – runs from any folder or USB drive
-- Clean, minimal GUI with clearly labeled buttons
-- No system modifications – does not touch the registry or change system settings
+
+- **Timed power actions:**
+  - Schedule a shutdown after a delay
+  - Schedule a restart after a delay
+  - Delay presets via dropdown: **1, 5, 10, 15, 30, 60 minutes**
+  - Cancel any scheduled shutdown/restart with a single button
+
+- **Fast and lightweight**
+  - No installer, no bloat – just a single EXE
+
+- **Portable**
+  - Runs from any folder or USB drive
+
+- **Clean, minimal GUI**
+  - Simple layout with clearly labeled buttons
+
+- **No system modifications**
+  - Does not touch the registry or change system settings
 
 ---
 
 ## Requirements
 
-- OS: Windows 10 / 11  
-- Architecture: 64-bit recommended  
-- Dependencies: None (just the EXE)
+- **OS:** Windows 10 / 11  
+- **Architecture:** 64-bit recommended  
+- **Dependencies:** None (just the EXE)
 
 ---
 
 ## Download
 
-You can download the latest version from the Releases page of this repository.
+You can download the latest version from the **Releases** page:
+
+👉 Go to the **Releases** section of this repository and grab the newest `PowerPanel.exe`.
 
 ---
 
@@ -40,10 +56,28 @@ You can download the latest version from the Releases page of this repository.
 
 1. Download `PowerPanel.exe` from the Releases page.
 2. Place it anywhere you like (Desktop, Tools folder, USB stick, etc.).
-3. Run it and click the button for the power action you want.
-4. (Optional) Pin it to the taskbar or add it to your startup folder if you use it often.
+3. Run it and use the buttons:
+
+### Instant actions
+
+- **Shutdown now** – immediately shuts down the computer.  
+- **Restart now** – immediately restarts the computer.  
+- **Sleep** – puts the system to sleep (if supported by your power settings).  
+- **Hibernate** – hibernates the system (if enabled).  
+- **Lock** – locks the current Windows session.  
+- **Sign out** – signs out the current user.
 
 Tip: Actions like Shutdown and Restart happen quickly. Make sure you’ve saved your work before using them.
+
+### Timed actions
+
+1. Choose a delay in **minutes** from the dropdown: `1, 5, 10, 15, 30, 60`.
+2. Click **Schedule shutdown** or **Schedule restart**.
+3. A small message will confirm that a timer was set.
+4. If you change your mind, click **Cancel timer** to abort any pending shutdown/restart.
+
+Under the hood, the app uses the built-in Windows `shutdown.exe` tool with `/t` (timer) and `/a` (abort) options.
+
 
 ## Antivirus / False Positives
 
@@ -77,8 +111,7 @@ To build it yourself:
 
 ## Roadmap / Ideas
 
-- Optional countdown timers for delayed shutdown/restart
 - Tray icon mode
 - Configurable hotkeys
+- Optional confirmation dialogs for timed actions
 - Dark/light theme toggle
-
