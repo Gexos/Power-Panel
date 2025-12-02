@@ -108,10 +108,3 @@ To build it yourself:
 4. Click **Tools → Compile** to generate the EXE.
 
 ---
-
-## Roadmap / Ideas
-
-- Tray icon mode
-- Configurable hotkeys
-- Optional confirmation dialogs for timed actions
-- Dark/light theme toggle
