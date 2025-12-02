@@ -48,13 +48,13 @@ It’s designed to be simple, fast, and portable: drop the EXE on your desktop, 
 
 You can download the latest version from the **Releases** page:
 
-👉 Go to the **Releases** section of this repository and grab the newest `PowerPanel.exe`.
+👉 Go to the **Releases** section of this repository and grab the newest `Power Panel.zip`.
 
 ---
 
 ## Usage
 
-1. Download `PowerPanel.exe` from the Releases page.
+1. Download `Power Panel.zip` from the Releases page.
 2. Place it anywhere you like (Desktop, Tools folder, USB stick, etc.).
 3. Run it and use the buttons:
 
