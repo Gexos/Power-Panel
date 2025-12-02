@@ -43,20 +43,7 @@ You can download the latest version from the Releases page of this repository.
 3. Run it and click the button for the power action you want.
 4. (Optional) Pin it to the taskbar or add it to your startup folder if you use it often.
 
-⚠️ Tip: Actions like Shutdown and Restart happen quickly. Make sure you’ve saved your work before using them.
-
----
-
-## Portable & Clean
-
-- No installation required  
-- No background services  
-- No registry changes  
-- No internet access needed  
-
-Just a single executable that does what it says.
-
----
+Tip: Actions like Shutdown and Restart happen quickly. Make sure you’ve saved your work before using them.
 
 ## Antivirus / False Positives
 
@@ -95,23 +82,3 @@ To build it yourself:
 - Configurable hotkeys
 - Dark/light theme toggle
 
----
-
-## License
-
-Power Panel is currently released as **freeware**.  
-
-- You may use it for personal and commercial use.  
-- You may redistribute the original, unmodified EXE as long as you give credit to the author and link back to this repository or gexsoft.org.  
-- Modifying and redistributing modified versions of the EXE or source code (if provided) requires permission from the author.
-
-© 2025 Giorgos Xanthopoulos – GexSoft
-
----
-
-## Author
-
-**Giorgos Xanthopoulos**  
-Creator of small, focused utilities under the GexSoft name.
-
-- Website: https://gexsoft.org
