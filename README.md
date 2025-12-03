@@ -48,7 +48,7 @@ It’s designed to be simple, fast, and portable: drop the EXE on your desktop, 
 
 You can download the latest version from the **Releases** page:
 
-👉 Go to the **Releases** section of this repository and grab the newest `Power Panel.zip`.
+Go to the **Releases** section of this repository and grab the newest `Power Panel.zip`.
 
 ---
 
