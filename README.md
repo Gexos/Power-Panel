@@ -1,5 +1,7 @@
 # Power Panel
 
+[![Ko-fi](https://img.shields.io/badge/Support%20me-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/gexos)
+
 Power Panel is a small Windows utility that gives you quick, one-click access to common power actions like **Shutdown**, **Restart**, **Sleep**, **Hibernate**, **Lock**, and **Sign out** – without digging through the Start menu.
 
 It’s designed to be simple, fast, and portable: drop the EXE on your desktop, taskbar, or USB stick and you’re ready to go.
